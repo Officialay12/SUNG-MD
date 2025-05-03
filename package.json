@@ -1,0 +1,37 @@
+{
+  "name": "sung-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "🔥 THE SHADOW MONARCH OF WHATSAPP 🔥 | Created by the legendary Ayo_codes | Command armies of features - movie downloads, photo edits, group domination & Solo Leveling memes | Lightning-fast responses | Admin supremacy tools | Your chat's new overlord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "shadow-monarch",
+    "solo-leveling",
+    "ayo_codes-masterpiece",
+    "prasie",
+    "Arise"
+  ],
+  "author": "Ayo_codes (The Architect)",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@open-wa/wa-decrypt": "^4.4.0",
+    "axios": "^1.4.0",
+    "dotenv": "^16.5.0",
+    "express-rate-limit": "^7.5.0",
+    "glob": "^10.3.10",
+    "helmet": "^8.1.0",
+    "mongoose": "^7.8.7",
+    "otp-generator": "^4.0.1",
+    "puppeteer": "^22.8.2",
+    "qrcode-terminal": "^0.12.0",
+    "rimraf": "^5.0.5",
+    "sharp": "^0.32.0",
+    "whatsapp-web.js": "^1.27.0",
+    "ytdl-core": "^4.11.5"
+  }
+}
