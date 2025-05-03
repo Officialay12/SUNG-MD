@@ -8,6 +8,15 @@ const fs = require('fs');
 const path = require('path');
 const utils = require('./commands/utils');
 
+// Debug all critical files
+const checkFiles = [
+  path.join(__dirname, 'commands', 'utils.js'),
+  path.join(__dirname, 'models', 'User.js')
+];
+
+checkFiles.forEach(file => {
+  console.log(`${file} exists:`, fs.existsSync(file));
+});
 const targetPath = path.join(__dirname, 'models', 'Group.js');
 console.log('Looking for Group.js at:', targetPath);
 console.log('File exists:', fs.existsSync(targetPath));
