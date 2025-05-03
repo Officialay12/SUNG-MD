@@ -1,0 +1,9 @@
+name: Deploy SungBot
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm install
+      - run: pm2 reload SungBot
